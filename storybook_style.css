@@ -1,0 +1,342 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.ground {
+  position: absolute;
+  width: 100%;
+  height: 55%;
+  top: 50%;
+  border-radius: 150px 150px 0 0;
+  background-color: green;
+  border-top: 10px solid darkgreen;
+  border-bottom: 10px solid darkgreen;
+  border-left: 5px solid darkgreen;
+  border-right: 5px solid darkgreen;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /*overflow: hidden;*/
+  background-color: #06ebf7;
+  font-family: 'Mali', cursive;
+  flex-direction: column;
+}
+
+.cloud {
+  border-radius: 50%;
+  position: static;
+  top: -50%;
+  left: 40%;
+  margin-top: -30px;
+  margin-left: -30px;
+  background: #FFFFFF;
+  height: 60px;
+  width: 60px;
+  box-shadow:
+    #FFFFFF 65px -15px 0 -5px,
+    #FFFFFF 25px -25px,
+    #FFFFFF 30px 10px,
+    #FFFFFF 60px 15px 0 -10px,
+    #FFFFFF 85px 5px 0 -5px;
+}
+
+
+.stem {
+  position: absolute;
+  width: 120px;
+  height: 300px;
+  top: 30%;
+  background: #f5f0f0;
+  border-bottom: 20px solid darkgrey;
+  border-radius: 45%;
+  box-shadow: 0px 20px 10px rgb(36, 57, 57);
+  bottom: 50%;
+}
+
+/*smiley face*/
+.mouth {
+  position: absolute;
+  background-color: black;
+  width: 40px;
+  height: 20px;
+  border-radius: 2px 2px 20px 20px;
+  bottom: 39%;
+  right: 48%;
+}
+
+
+.left-eye,
+.right-eye {
+  background-color: black;
+  position: absolute;
+  width: 10px;
+  height: 15px;
+  border-radius: 50%;
+  bottom: 44%;
+
+}
+
+.right-eye {
+  right: 690px;
+}
+
+.left-eye::before,
+.right-eye::before {
+  content: "";
+  display: block;
+  background-color: white;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 1px;
+}
+
+.mushroom {
+  position: absolute;
+  width: 275px;
+  height: 200px;
+  bottom: 50%;
+  background: red;
+  border-bottom: 20px solid darkred;
+  border-radius: 50%;
+}
+
+
+.button-1 {
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  bottom: 55%;
+  left: 50%;
+  background-color: #f5f0f0;
+
+  /*TRYING TO USE MUSHROOM SPOTS AS TOGGLE BUTTONS
+  /**color: black;
+  text-align: center;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 700;
+  padding: none;
+  transition-duration: 0.2s;
+  cursor: pointer;**/
+}
+
+/**.button-1:hover {
+  background-color: darkorange;
+  color: white;
+  border-left: 1.5px solid white;
+  border-top: 1.5px solid white;
+  border-right: 1.5px solid white;
+  border-bottom: 3px solid white;
+  box-shadow: 0px 3px 1px darkred;
+  padding: none;
+}**/
+
+
+nav {
+  background-color: rgb(192, 97, 43);
+  padding: 15px 35px;
+  text-align: center;
+  position: sticky;
+  top: 5%;
+  border-radius: 20px 20px 20px 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+
+nav a:hover {
+  background-color: white;
+  border-radius: 5px 5px 5px 5px;
+  color: rgb(192, 97, 43);
+}
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 800px;
+}
+
+.line {
+  color: white;
+  font-size: 40px;
+}
+
+.small-line {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/*TRYING THE TOGGLE EFFECT
+/**#toggle {
+  display: none;
+}
+
+#toggle:checked {
+  background-color: darkorange;
+  color: white;
+  border-left: 1.5px solid white;
+  border-top: 1.5px solid white;
+  border-right: 1.5px solid white;
+  border-bottom: 3px solid white;
+  box-shadow: 0px 3px 1px darkred;
+  padding: none;
+}
+
+#toggle:checked~#content {
+  max-height: 1000px;
+}**/
+
+.button-2 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  bottom: 60%;
+  left: 56%;
+  background-color: #f5f0f0;
+}
+
+.button-3 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  bottom: 65%;
+  left: 45%;
+  background-color: #f5f0f0;
+}
+
+
+.button-4 {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  bottom: 57%;
+  left: 43%;
+  background-color: #f5f0f0;
+}
+
+.button-5 {
+  position: absolute;
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+  bottom: 64%;
+  left: 53%;
+  background-color: #f5f0f0;
+}
+
+.worm {
+  position: absolute;
+  background-color: rgb(192, 97, 43);
+  height: 20px;
+  width: 200px;
+  border: 1px solid white;
+  border-radius: 10px 10px 10px 10px;
+  bottom: 30%;
+  right: 10%;
+  box-shadow: 0px 7px 5px rgb(36, 57, 57)
+}
+
+.worm-eye {
+  position: absolute;
+  background-color: black;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  bottom: 31%;
+  right: 23%;
+}
+
+.tiny-stem-1 {
+  position: absolute;
+  width: 40px;
+  height: 60px;
+  border-radius: 45%;
+  bottom: 34%;
+  left: 35%;
+  background: #ddd9d9;
+  border-bottom: 5px solid darkgrey;
+  box-shadow: 0px 5px 5px rgb(36, 57, 57)
+}
+
+.tiny-mushroom-1 {
+  position: absolute;
+  width: 70px;
+  height: 55px;
+  border-radius: 50%;
+  left: 34%;
+  bottom: 38%;
+  background: red;
+  border-bottom: 10px solid darkred;
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+
+.tiny-stem-2 {
+  position: absolute;
+  width: 40px;
+  height: 60px;
+  border-radius: 45%;
+  bottom: 20%;
+  left: 40%;
+  background: #ddd9d9;
+  border-bottom: 5px solid darkgrey;
+  box-shadow: 0px 5px 5px rgb(36, 57, 57)
+}
+
+.tiny-mushroom-2 {
+  position: absolute;
+  width: 70px;
+  height: 55px;
+  border-radius: 50%;
+  left: 39%;
+  bottom: 22%;
+  background: red;
+  border-bottom: 10px solid darkred;
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/**.cloud,
+.cloud_two {
+  animation: move 6s ease infinite;
+  border-radius: 50%;
+  position: absolute;
+  top: -50%;
+  left: 50%;
+  margin-top: -30px;
+  margin-left: -30px;
+  background: #FFFFFF;
+  height: 60px;
+  width: 60px;
+  box-shadow:
+    #FFFFFF 65px -15px 0 -5px,
+    #FFFFFF 25px -25px,
+    #FFFFFF 30px 10px,
+    #FFFFFF 60px 15px 0 -10px,
+    #FFFFFF 85px 5px 0 -5px;
+}**/
