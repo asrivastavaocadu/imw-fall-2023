@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* height: 100vh; */
+}
+
+.disappear {
+    font-size: 72px;
+    font-family: "yink", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.disappear:hover {
+    transition: ease-out 250ms;
+    opacity: 0;
+}
+
+.change-color {
+    font-family: 'Mali', 'Gill Sans', Calibri, sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    animation-name: colorchange;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorchange {
+    0% {
+        color: seagreen;
+    }
+
+    25% {
+        color: rgb(37, 70, 104);
+    }
+
+    50% {
+        color: rgb(185, 3, 91);
+    }
+
+    75% {
+        color: rgb(255, 115, 0);
+    }
+
+    100% {
+        color: indigo;
+    }
+}
+
+@font-face {
+    font-family: 'Bespoke-dpJpQVN1e6';
+    src: url('Bespoke-dpJpQVN1e6.eot');
+    src: url('Bespoke-dpJpQVN1e6.eot?#iefix') format('embedded-opentype'),
+        url('Bespoke-dpJpQVN1e6.woff') format('woff'),
+        url('Bespoke-dpJpQVN1e6.ttf') format('truetype'),
+        url('Bespoke-dpJpQVN1e6.svg#Bespoke-dpJpQVN1e6') format('svg');
+}
+
+.zoom {
+    font-family: 'Bespoke-dpJpQVN1e6', 'Calibri', sans-serif;
+    font-size: 70px;
+    color: rgb(143, 30, 68);
+    animation-name: zooms;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes zooms {
+    0% {
+        font-size: 70px;
+    }
+
+    25% {
+        font-size: 35px;
+    }
+
+    50% {
+        font-size: 70px;
+    }
+
+    75% {
+        font-size: 105px;
+    }
+
+    100% {
+        font-size: 70px;
+    }
+}
