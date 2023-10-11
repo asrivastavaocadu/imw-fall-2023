@@ -1,0 +1,174 @@
+body {
+    /* background: #8d5535; */
+    background: rgb(104, 55, 27);
+    background: linear-gradient(0deg, rgba(104, 55, 27, 1) 0%, rgba(93, 53, 0, 1) 18%, rgba(141, 85, 53, 1) 100%);
+}
+
+
+ul {
+    font-size: 20px;
+    font-family: "anodyne", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    height: 600px;
+    text-align: right;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+
+}
+
+li {
+    list-style-type: none;
+    color: #FFE8E1;
+    transform: rotate(-90deg);
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    text-wrap: nowrap;
+    text-align: center;
+}
+
+a:link {
+    color: #FFD275;
+}
+
+a:visited {
+    color: #FFD275;
+
+}
+
+
+.mariahupfield {
+    display: flex;
+    height: 500px;
+    /* position: relative; */
+}
+
+.head {
+    font-size: 115px;
+    font-family: "blenny", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #FFE8E1;
+    height: 500px;
+    font-weight: 700;
+    padding-left: 70px;
+    /* padding-top: 100px; */
+    /* display: flex; */
+    padding-right: 400px;
+    transition: 0.2s ease-in;
+    line-height: 65px;
+    letter-spacing: 5px;
+
+}
+
+.head:hover {
+    text-shadow:
+        -0.5px 0px 0px white,
+        0.5px 0px 0px white,
+        0px -0.5px 0px white,
+        0px 0.5px 0px white;
+}
+
+
+
+
+.cultural-center {
+    font-size: 30px;
+    font-family: "anodyne", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #FFE8E1;
+    /* height: 556px; */
+    font-weight: 400;
+    padding-left: 70px;
+    display: flex;
+    /* position: relative; */
+    flex-direction: column;
+    line-height: 35px;
+    border: white;
+}
+
+.multicolortext {
+    background-image: linear-gradient(to right, #e695b4, #ff9db2, #FFD275, #8a91b9, #5C9EAD);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.canadaculture-cta {
+    font-size: 30px;
+    text-decoration: none;
+    list-style: none;
+    color: #FFE8E1;
+    background-color: #623D29;
+    width: 270px;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.canadaculture-cta:hover {
+    background-color: #5C9EAD;
+    color: #623D29;
+    /* border: solid 0.02px #FFE8E1; */
+}
+
+
+.address {
+    font-size: 20px;
+    font-family: "anodyne", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #FFE8E1;
+    /* height: 556px; */
+    padding-right: 70px;
+    padding-left: 550px;
+    line-height: 35px;
+    text-align: end;
+}
+
+.opening {
+    font-size: 45px;
+    color: #FFE8E1;
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+    font-family: "blenny", sans-serif;
+    font-weight: 400;
+    line-height: 70px;
+    height: 100px;
+
+}
+
+
+
+.performance {
+    font-size: 45px;
+    color: #FFE8E1;
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    font-family: "blenny", sans-serif;
+    font-weight: 400;
+    padding-right: 70px;
+    padding-left: 100px;
+    line-height: 70px;
+    height: 100px;
+}
+
+.content {
+    font-size: 20px;
+    color: #FFE8E1;
+    font-family: "anodyne", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    padding-left: 70px;
+    padding-right: 70px;
+    line-height: 40px;
+    text-align: justify;
+    letter-spacing: 3px;
+}
