@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poster Process</title>
+    <!--Link to Gabriela font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabriela&display=swap" rel="stylesheet">
+
+    <!--Frank Ruhl Libre font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            align-items: center;
+            justify-content: center;
+            background: rgb(104, 55, 27);
+            background: linear-gradient(0deg, rgba(104, 55, 27, 1) 0%, rgba(93, 53, 0, 1) 18%, rgba(141, 85, 53, 1) 100%);
+        }
+
+        .heading {
+            text-align: center;
+            color: white;
+            font-weight: 700;
+            font-family: 'Gabriela', serif;
+            text-decoration: underline;
+        }
+
+        .writeup {
+            margin-left: 20px;
+            margin-right: 20px;
+            text-align: center;
+            color: white;
+            font-size: 22px;
+            font-family: 'Frank Ruhl Libre', serif;
+        }
+
+        .image {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 600px;
+            border: 1px solid white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="heading">P2: Poster Process</h1><br>
+
+    <h2 class="heading">Research</h2>
+    <p class="writeup">I chose the "Maria Hupfield" content package. The text talks about an indigenous art exhiition
+        that goes on display at an art gallery. I don't know much about the Canadian indigenous culture, but I wanted
+        the poster/landing page to embody the culture of the people. Hence, some research was necessary.</p><br>
+    <img src="inspiration-1.jpeg" alt="Native art" class="image"><br>
+    <p class="writeup">To start off, I started looking at some paintings and artwork done by Native artists to
+        understand the aesthetic I should be aiming for. In particular, I looked at the works of Eloy Bida, a Native
+        visual artist and illustrator.</p><br>
+    <img src="inspiration-2.jpeg" alt="Native art" class="image"><br>
+    <p class="writeup">My key takeaway from this phase in my research was noting the color scheme. I noticed that there
+        was a lot of brown, with multiple pastel-colored highlights. This led me to the second phase of my research:
+        experimenting with colors.</p><br><br>
+
+    <h3 class="heading"> Color Palettes</h3>
+    <p class="writeup">After some experimentation, I found the particular shade of brown that would form the main
+        background of the poster, and keeping that constant, I played around with a few palettes and finally landed on a
+        few different colors that I could pair with the brown.</p><br>
+    <img src="colorpalette1.png" alt="color palette" class="image"><br>
+    <img src="colorpalette2.png" alt="color palette" class="image"><br>
+    <img src="colorpalette3.png" alt="color palette" class="image"><br>
+
+    <h2 class="heading">Fonts</h2>
+    <p class="writeup">I wanted to have a bold, rounded serif font for the headings and I wanted to pair it with a
+        contrasting narrow sans-serif font. After some exploration on Adobe fonts, I came across the "Blenny" font.</p>
+    <br>
+    <img src="font1.png" alt="Blenny font" class="image"><br>
+    <p class="writeup">It does seem like a font that would be used to design Latin posters, but I thought that this was
+        a good fit. Now, I needed a rough, narrow sans-serif font to pair with this "Blenny" font. I decided to go with
+        Anodyne, also found on Adobe fonts.</p><br>
+    <img src="font2.png" alt="Anodyne font" class="image"><br><br>
+
+    <h2 class="heading">Development</h2>
+    <p class="writeup">The examples shown to us in class played around with typography and they were extremely good.
+        However, I remember them being a little crowded and difficult to read. I wanted to go for a clean, spacious
+        design, which meant a good amount of empty space. I also added a background gradient from light to dark brown as
+        you scroll down the page to play around with the colors of the empty space.<br><br>
+        I also had to reorder some of the content given in the HTML packet so that I could design the flexboxes and the
+        hierarchal text order in a way that made sense.<br><br>
+        The contact details section is one of the most versatile sections on any web page, and I wanted to play around
+        with its location. Hence, I put it at the top of the page, rotated at 90 degrees</p><br>
+    <img src="contact-code.png" alt="css-contact-details" class="image"><br>
+    <p class="writeup">And rather than restricting the heading to only one color, I decided to use most of the
+        highlights from the color palette as a gradient. I think it worked out well, which is why I tried to implement
+        this color scheme on words that I need to draw attention to.</p>
+    <img src="heading.png" alt="multicolored heading" class="image"><br>
+    <p class="writeup">Paired with the rough, almost chalkboard-like style of the Anodyne font, I think the poster
+        looked well-rounded. So now I just had to play around with the layouts of the flexboxes that I had created that
+        contained different parts of the write-up.</p>
+    <img src="webpage.png" alt="landing page" class="image"><br>
+    <img src="webpage2.png" alt="landing page" class="image"><br>
+    <img src="webpage3.png" alt="landing page" class="image"><br>
+
+    <h3 class="heading">Interactions and Animations</h3>
+    <p class="writeup">I did want to add a collapsible div element to contain the 3 paragraphs of text at the bottom,
+        but for some reason as soon as I added the element, the orientation of the entire text changed by 90 degrees. I
+        was happy with the way the poster looked, but it was too static for my liking. Hence, I decided to add a hover
+        elemnt on the headinng, wherein it will change its color to white when hovered over it. The other interaction
+        I've added is on the "canada-culture.org" button that leads to an external site: it turns blue when hovered over
+        it.<br><br>
+        ***** </p>
+
+</body>
+
+</html>
