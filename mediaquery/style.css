@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+}
+
+h1 {
+    text-align: center;
+    /*Responsive Design*/
+    font-size: 3vw;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 6px 0px;
+}
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 6px 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+/*Adaptive Media Query for tablets or screens smaller than 768px*/
+@media screen and (max-width: 768px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/*Adaptive Media Query for smartphones or screens smaller than 480px*/
+@media screen and (max-width: 480px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
