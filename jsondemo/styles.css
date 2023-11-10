@@ -1,0 +1,88 @@
+* {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-family: 'Sacramento', cursive;
+}
+
+body {
+    background-color: #202020;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #33393c;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 24px;
+}
+
+.container {
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #020202;
+}
+
+.search-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#search-input {
+    flex: 1;
+    padding: 10px;
+    font-size: 30px;
+
+}
+
+#search-button {
+    background-color: #191919;
+    color: #fff;
+    border: whitesmoke solid 1px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.cocktail-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.cocktail-card {
+    background-color: #e2e2e2;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+h3 {
+    font-size: 40px;
+    margin: 0 0 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border: #020202 1px solid;
+    border-radius: 5px;
+}
+
+p {
+    margin: 0;
+    font-size: 25px;
+}
+
+.ingredients-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 25px;
+}
+
+.ingredients-list li {
+    margin: 5px 0;
+    font-size: 25px;
+}
